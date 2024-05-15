@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: #ff9f00; /* Bright orange */
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #ff9f00; /* Lighter orange on hover */
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Arial Black', sans-serif; /* Bold font */
+    color: #030127; 
+    text-shadow: 2px 2px 2px #ccc; 
+    text-align:center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pdf {
+    text-align: center;
+    margin-top: 50px;
+}
+object {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+    color:#030127; /* Bright orange */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff9f00; /* Bright orange */
+    padding-bottom: 10px;
+    font-family: 'Arial Black', sans-serif; /* Bold font */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555; /* Dark gray text */
+    line-height: 1.6;
+    text-align: center;
+}

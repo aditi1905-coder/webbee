@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #030127; 
+    background-color: #ff9f00; 
+   
+}
+
+header h1 {
+    color: #030127; 
+    background-color: #ff9f00; 
+    text-align:center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #030127; 
+    background-color: #ff9f00; 
+    text-align:center;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+button {
+     background-color: #030127;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.pdf-container {
+    display: none;
+    text-align: center;
+}
+
+.pdf {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* javascript.css */
+
+.pdf-container {
+    display: none;
+}
+
+.pdf-container.active {
+    display: block;
+}

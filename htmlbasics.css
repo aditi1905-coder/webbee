@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 100px;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: #ff9f00; /* Bright orange */
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #ff9f00; /* Lighter orange on hover */
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Arial Black', sans-serif; /* Bold font */
+    color: #030127; /* Dark gray */
+    text-shadow: 2px 2px 2px #ccc; /* Soft shadow */
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+    color:#030127; /* Bright orange */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff9f00; /* Bright orange */
+    padding-bottom: 10px;
+    font-family: 'Arial Black', sans-serif; /* Bold font */
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555; /* Dark gray text */
+    line-height: 1.6;
+}
+
+code {
+    display: block;
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace; /* Monospace font */
+    color: #333; /* Dark gray text */
+}
+
+a {
+    color: #007bff; /* Bright blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+li::before {
+    content: '\25CF'; /* Bullet point */
+    margin-right: 5px;
+    color: #030127; /* Bright orange */
+}
+
+.pdf {
+    width: 100%;
+    height: auto;
+}
+
+.tuts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tuts h2 {
+    font-family: 'Arial Black', sans-serif; /* Bold font */
+    color: #030127; /* Bright orange */
+    text-transform: uppercase;
+    border-bottom: 2px solid #030127; /* Bright orange */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.tuts p {
+    font-size: 16px;
+    color: #555; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+.tuts strong {
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+}
+.youtube-video{
+    display: flex;
+align-items: center;}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="sign-up-form">
+        <!-- <img class="imagead" src="./laptop.jpeg" alt="img"> -->
+        <!-- <img src = "block4.jpg"> -->
+        <div><h1 class="signupheading">Sign Up Now!</h1></div>
+        <form action="signup.php" method="post"> <!-- Updated form action and method -->
+            <input type="email" class="input-box" name="email" placeholder="&#128231; Your Email"> <!-- Added name attribute for email input -->
+            <input type="password" class="input-box" name="password" placeholder="&#x1F441; Your Password"> <!-- Added name attribute for password input -->
+            <p><span><input type="checkbox"></span>
+                I agree to Terms and Services</p>
+            <button type="submit" class="signup-btn">Sign up</button> <!-- Changed type to "submit" -->
+            <hr>
+            <p class="or"> OR</p>
+            <button id="loginBtn" type="button" class="twitter-btn">Login</button>
+
+            <script>
+            document.getElementById("loginBtn").addEventListener("click", function() {
+              window.location.href = "login.html";
+            });
+            </script>
+
+            <p> Do you have an account? <a href="#">Sign in</a> </p>
+            <hr>
+        </form>
+    </div>
+</body>
+</html>
